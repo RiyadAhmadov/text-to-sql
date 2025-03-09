@@ -18,10 +18,10 @@ from email.mime.text import MIMEText
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 db_config = {
-    "host": "128.140.38.157",
-    "user": "riyad_codeta",
-    "password": "code_ta_24680",
-    "database": "code_train"
+    "host": "host",
+    "user": "user",
+    "password": "pass",
+    "database": "db"
 }
 
 def get_gemini_response(question, prompt):
